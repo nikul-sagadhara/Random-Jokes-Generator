@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(34, 197, 94), rgb(21, 128, 61));
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    max-width: 500px;
+    margin:  0 auto;
+    height: 300px;
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.container h2 {
+    text-transform: capitalize;
+    font-family: 'Fredoka One', cursive;
+    color: #F99417;
+}
+
+#btn {
+    padding: 10px 20px;
+    background-color: #EB455F;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5rem;
+}
+
+#btn:hover {
+    background-color: #eb455eaf;
+}
+
+#joke {
+    color: rgb(97, 97, 97);
+    font-family: 'Montserrat', sans-serif;
+}
